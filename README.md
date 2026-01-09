@@ -1,10 +1,10 @@
 # AgriBoost: AI and IoT-Based System to Enhance Sugarcane Production
 
-![AgriBoost Logo](images/logo.png) <!-- Replace with actual logo -->
+![AgriBoost Logo](images/logo.png) 
 
 ---
 
-## 🌱 Project Overview
+## Project Overview
 
 **AgriBoost** is an AIoT-based platform designed to enhance sugarcane production by combining:
 
@@ -22,9 +22,8 @@ The system consists of:
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
-![AgriBoost Architecture](images/architecture.png) <!-- Add architecture diagram -->
 
 **Flow:**
 
@@ -32,10 +31,61 @@ The system consists of:
 2. IoT sensors collect soil data → Random Forest model predicts fertilizer suggestions → Dashboard visualization.
 
 ---
+![Home](images/home.png) 
+![Register](images/register.png) 
+![AgriBoost](images/login.png) 
+![AgriBoost](images/dashboard.png) 
+![AgriBoost](images/dashboard1.png) 
+![AgriBoost](images/diesease.png) 
+![AgriBoost](images/disease_history.png) 
+![AgriBoost](images/sensor.png) 
+![AgriBoost](images/sensor1.png) 
+![AgriBoost](images/fertilizer_pred.png) 
+![AgriBoost](images/pred_history.png) 
+![AgriBoost](images/chart_sensor.png) 
+![AgriBoost](images/settings.png) 
+![AgriBoost](images/user_history.png) 
 
-## ⚙️ Setup Instructions
+
+
+
+
+
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
+# 1. Clone the repository
 git clone https://github.com/inamkj/Agriboost.git
 cd Agriboost
+
+# 2. Setup Backend
+cd backend
+
+# Create virtual environment
+python -m venv venv310
+
+# Activate virtual environment (Windows)
+venv310\Scripts\activate
+
+# If Linux / Mac, use:
+# source venv310/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run migrations
+python manage.py migrate
+
+# Start backend server
+python manage.py runserver
+
+# 3. Setup Frontend
+cd ../frontend
+
+# Install dependencies
+npm install
+
+# Start frontend server
+npm run dev
+
