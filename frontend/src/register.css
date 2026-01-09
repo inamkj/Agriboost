@@ -1,0 +1,73 @@
+/* Container */
+.register-container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--color-primary), #b7db79);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form Card */
+.register-form {
+  background: #fff;
+  padding: 2.25rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  width: 92%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Form Title */
+.register-form h2 {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Inputs & Select */
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+/* Button */
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-form button:hover {
+  background: var(--color-primary-600);
+}
+
+/* Message */
+.register-form .message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #e74c3c; /* red for errors */
+}
+
+.register-form .message.success {
+  color: #2ecc71; /* green for success */
+}

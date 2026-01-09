@@ -1,0 +1,203 @@
+/* Global */
+.home-container {
+  font-family: "Inter", sans-serif;
+  color: #1E1E1E;
+  background: #fdfdfd;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.home-container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #c7b31c;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.home-container .logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.home-container .nav-links .nav-btn {
+  margin-left: 1rem;
+  padding: 0.6rem 1.3rem;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.home-container .nav-btn {
+  background: #ffffff;
+  color: #1E1E1E;
+}
+
+.home-container .nav-btn.signup {
+  background: #6D8B2E;
+  color: #ffffff;
+  border: 2px solid #6D8B2E;
+}
+
+.home-container .nav-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Hero Section */
+.home-container .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #6D8B2E, #FDCB3E);
+  color: #ffffff;
+  padding: 3rem 2rem;
+}
+
+.home-container .hero-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.home-container .hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 650px;
+  margin-inline: auto;
+  color: #ffffff;
+}
+
+.home-container .cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.home-container .cta-btn {
+  padding: 0.9rem 1.7rem;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.home-container .cta-btn {
+  background: #ffffff;
+  color: #000000;
+}
+
+.home-container .cta-btn:hover {
+  background: #6D8B2E;
+  color: white;
+  transform: translateY(-2px) scale(1.05);
+}
+
+.home-container .cta-btn.outline {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.home-container .cta-btn.outline:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/* Services Section */
+.home-container .services {
+  padding: 5rem 2rem;
+  text-align: center;
+  background: #fafafa;
+}
+
+.home-container .services h2 {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  color: #6D8B2E;
+  font-weight: 800;
+}
+
+.home-container .service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Service Card */
+.home-container .card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+  border-top: 6px solid #FDCB3E;
+}
+
+.home-container .card h3 {
+  color: #6D8B2E;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.home-container .card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.home-container .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 30px rgba(0,0,0,0.12);
+  border-top-color: #6D8B2E;
+}
+
+/* Footer */
+.home-container .footer {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: #1E1E1E;
+  color: white;
+}
+
+.home-container .footer p {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.home-container .footer .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.home-container .footer .cta-btn {
+  background: #FDCB3E;
+  color: #1E1E1E;
+}
+
+.home-container .footer .cta-btn.outline {
+  border: 2px solid #FDCB3E;
+  color: #FDCB3E;
+  background: transparent;
+}
+
+.home-container .footer .cta-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+}

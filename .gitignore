@@ -1,0 +1,50 @@
+# =====================
+# Python
+# =====================
+backend/venv310/
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# Environment variables
+# =====================
+.env
+backend/.env
+
+# =====================
+# Node / React
+# ====================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# =====================
+# Django / Flask
+# =====================
+db.sqlite3
+media/
+staticfiles/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+# =====================
+# Machine Learning Models & Artifacts
+# =====================
+# *.h5
+# *.pkl
+# *.joblib
+# *.pt
+# *.pth
+# *.onnx

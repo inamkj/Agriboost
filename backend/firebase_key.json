@@ -1,0 +1,16 @@
+{
+    "type": "service_account",
+  "project_id": "agriboost-fyp",
+  "private_key_id": "ae959acbedf6dac1165ce6fa7dcefe051af3ace6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDCyiNAr7fZ497+\n2wBSsDfKX4Qp3bsArR17aIX9uWLlrqbcRkoq5l3nQgCoUcU4NuXb4s/hEDAJ0l40\nbMI1FHjIxK+yeREuZ0BQWoqM/eL02u6bEgSc41diyhBRm4GDUSDqdmXOmU97MSQ5\n3Tg3k7SD9UH+fd6IweYm2QRmQF35K8Fk3kYhSFem41dSZ8M28CEIF6czNzeNDTOl\n//nPs1tyZZr6dqaVzDbk7Y0zpGm6DATS3M0Rxf02EZPz1NmG+x5dVQO5Az/OXrWO\nxp8oZIHB/fHO0/ZkkL802TbLOOC+89ZQ+80NqV4lS50UZv1tHK8fHqxJzrndS5Wq\n2jerSlTxAgMBAAECggEAIN8CtvJQSMVTBtgHRGz3ZT/cKkKAQbt1C7PWVLxZq5/f\nCbIU5wtsElAJk14FNZjSDlrGsNjN+oJVImyuE04KmfrTGX+jvhxvdn/o/KUFjUN6\n25FdVOpqf0HRIixnXTUuJFLpmEU36/adgeRKjdpvrosPYXZ1PMfX4nth6i13jkof\n/awsUc/oW7ckihpupD820y0NGS5TPTU5yqlHZYyo9GFeGEkMPw7AJ3qPQYv4uUlM\nhbFaqS09yCo3h7QI/OlA0SqufrVMBYizMDie8h2icYruwzNN95NmiKIsX1rgxNyS\nFzr5gNKlDr5JfXeulceaUNYDXPp0YsOl5r1+B5dTiQKBgQDtOclCDDc+ENNE/m8Z\nzE4PKNfdue2zJn+92NMWsEkEW90USUKqaEcpJmqcERG5x3mIrPH5DuNbXlr6x/ff\nNuCPMZWIxm7PFi9aT4cENKB7foY3qonl4hPCXK3loK6V9NKiaOYsNCq65pbA7hUe\nUCnJxAN/sl0J276mlyT4JKBCVQKBgQDSNJeIjk7pVRN63jts1dgbJStLi7/EpVFh\newXtt3hbHWCkvucxQ6Mj+9AQZLBJZed5urlXl7brR8JFkHjuBddGlQXePc1yhG7+\n0iKtuCi0ByL0Lltf/U/h15AFLBXVh78O8dEGdddXfFchV+Lgwee/iMTCh6N4K07Q\nThC7g4f8LQKBgQDbvhJ6ltw5Jta86z640/JewoOrRMY1k+zyS73FH4iTfBC+8NnL\nBgscyBQq+vjDcU5X13PRNARQp4d5E/C8mJXMrq6IYt9T/oXgjxhPQfyCSIJFYDia\ndB+/g6AlvADcsUrH3ImR2sTWGjD9B80SJkl/N43SJMNgFWh14j4BidPVfQKBgQCl\nO+oR0at+Bv41CxOzTbV+QQ1zaPrpXPpHoija3+mf1cvuNJIPS5el5X98I2nfiFcY\nfQrMK9oBwHqZrCMjFzxNoz7ln7crWabWb+AKpkR4n1N+liIFpl1wrb3sEudm3jn1\nSWiBp4gKoRbsguU4v7On/56LO4voHkLpwzOr8oymUQKBgQCuWIPMEWq3Z2wWaHBz\nznUjKGYlxi7ztVUWzp2GpKpZoJtODwltZividHJ86chkjY0OZWXqxFrsiIZZF6lA\nD9BuvjIYg4V6mgijU1JvngJ//WSaXs5NMPUu7zW9/+89npsKZrlacrpR53eQ/0Xf\nbKd3CnyIkiByUSApE6quGvYc8w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@agriboost-fyp.iam.gserviceaccount.com",
+  "client_id": "114646608552087313410",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40agriboost-fyp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
+
+

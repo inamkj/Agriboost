@@ -1,0 +1,115 @@
+/* Hero Banner */
+.hero-banner {
+  background: url("../assets/images/image5.jpg") center/cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 80, 40, 0.6); 
+  border-radius: 12px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #81B045;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+.hero-btn {
+  background: #81B045;
+}
+
+.hero-btn:hover {
+  background: #218838;
+}
+
+/* Dashboard Cards */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Info Card */
+.info-card {
+  background: #f6f6f6;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 6px solid #28a745;
+  margin-top: 20px;
+}
+
+.info-card h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.info-card p {
+  color: #444;
+  line-height: 1.6;
+}

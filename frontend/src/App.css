@@ -1,0 +1,25 @@
+.mybackground{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1ee822;
+  background: linear-gradient(90deg, rgba(30, 232, 34, 1) 0%, rgba(185, 235, 19, 1) 100%);
+}
+.whitebox{
+  background-color: white;
+  padding: 20px;
+  min-width: 300px;
+  height: 70%;
+  width: 25%;
+  border: 1px solid black;
+}
+.itembox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+  height: 70px;
+}
