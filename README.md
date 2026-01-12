@@ -36,8 +36,6 @@ The system consists of:
 The Firebase Service Account key (`firebase_key.json`) **has been removed from this repository** for security reasons. 
 
 - For local development, you can place your key in the `backend/` folder and ensure it is listed in `.gitignore`:
-
-```bash
 backend/firebase_key.json
 ---
 ![Home](images/home.png) 
