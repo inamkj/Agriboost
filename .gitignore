@@ -48,3 +48,5 @@ Thumbs.db
 # *.pt
 # *.pth
 # *.onnx
+# Firebase Service Account Key
+backend/firebase_key.json
