@@ -39,7 +39,7 @@ The Firebase Service Account key (`firebase_key.json`) **has been removed from t
 
 ```bash
 backend/firebase_key.json
-
+---
 ![Home](images/home.png) 
 ![Register](images/register.png) 
 ![AgriBoost](images/login.png) 
